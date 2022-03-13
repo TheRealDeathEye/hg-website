@@ -12,7 +12,7 @@ export default function About(){
             <br/><br/><br/>
             <div className='row' id='aboutCards'>
             <div className='col'>
-            <Card>
+            <Card style={{border:'none'}}>
                 <Card.Img variant='top' src={paul} />
                 <Card.Body>
                 <Card.Title>Paul Fears</Card.Title>
@@ -23,7 +23,7 @@ export default function About(){
             </Card>
             </div>
             <div className='col'>
-            <Card>
+            <Card style={{border:'none'}}>
                 <Card.Img variant='top' src={ty} />
                 <Card.Body>
                 <Card.Title>Ty Harden</Card.Title>
@@ -34,7 +34,7 @@ export default function About(){
             </Card>
             </div>
             <div className='col'>
-            <Card>
+            <Card style={{border:'none'}}>
                 <Card.Img variant='top' src={trevor} />
                 <Card.Body>
                 <Card.Title>Trevor Orr</Card.Title>
@@ -45,7 +45,7 @@ export default function About(){
             </Card>
             </div>
             <div className='col'>
-            <Card>
+            <Card style={{border:'none'}}>
                 <Card.Img variant='top' src={eric} />
                 <Card.Body>
                 <Card.Title>Eric Taylor</Card.Title>

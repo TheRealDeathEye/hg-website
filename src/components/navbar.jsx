@@ -7,7 +7,7 @@ import logo from '../imgs/logo.png';
 export default function Topbar(){
     return(
         <div>
-        <Navbar bg="light" variant="light">
+        <Navbar bg="light" variant="light" sticky='top'>
             <Container>
             <Navbar.Brand>
                 <Link to="/"><img src={logo} width='40' alt='' /></Link>
