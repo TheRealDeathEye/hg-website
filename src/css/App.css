@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #545454;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+}
+
+#aboutCards .card {
+  width: 20rem;
+  margin-bottom: 15px;
+}
+
+#aboutCards img{
+  width:100%
+}
+
+.card.body {
+  border: 0;
+}
